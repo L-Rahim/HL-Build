@@ -14,10 +14,12 @@ function myFunction() {
   console.log(`Random value between 1 and 12 is ${a}`);
 
   numberElement.textContent = `Random value between 1 and 12 is ${a}`;
+ 
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * 12);
+  }
+  const myNumber = getRandomInt(9);
+  console.log(myNumber)
+
 }
 
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
-}
-const myNumber = getRandomInt(9);
-console.log(myNumber);
