@@ -9,15 +9,9 @@ throwButton.addEventListener("click", myFunction);
 
 let counter = 0;
 
-function myFunction() {
-  const a = Math.random() * (12 - 1) + 1;
-  console.log(`Random value between 1 and 12 is ${a}`);
-
-  numberElement.textContent = `Random value between 1 and 12 is ${a}`;
+function myFunction(max) {
+  return Math.floor(Math.random() * max) + 1;
 }
 
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
-}
-const myNumber = getRandomInt(9);
+const myNumber = myFunction(6);
 console.log(myNumber);
