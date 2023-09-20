@@ -10,14 +10,10 @@ console.log("generateButton is " + generateButton);
 generateButton.addEventListener("click", buttonClick)
 // Genereer een willekeurig getal tussen 0 en 12
 
-
-
 let randomNum;
 
 function buttonClick() {
   randomNum = Math.floor(Math.random() * 13);
   randomNumberDiv.textContent = `Uw getal = ` + randomNum;
 }
-
-
 
