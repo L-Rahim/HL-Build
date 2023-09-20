@@ -68,3 +68,80 @@ body {
 .random-number {
     color: white;
 }
+  
+.button-2{
+    margin-left: 950px;
+    margin-top: 450px;
+  }
+
+
+  .button-2 {
+    width: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .button-2 {
+    background-color: transparent;
+    border: 3px solid hsl(197, 93%, 48%);
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #0684d8;
+  }
+  .button-2:hover {
+    box-shadow: 0 0 10px 0 hsl(199, 98%, 46%) inset, 0 0 20px 2px #0081d7;
+    border: 3px solid #0589e0;
+  }
+  
+  .button-2{
+    margin-left: 50px;
+    margin-top: 450px;
+  }
+  
+  .button-3{
+    margin-left: 950px;
+    margin-top: 450px;
+  }
+
+
+  .button-3 {
+    width: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .button-3 {
+    background-color: transparent;
+    border: 3px solid hsl(0, 100%, 50%);
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #ff0000;
+  }
+  .button-3:hover {
+    box-shadow: 0 0 10px 0 hsl(0, 98%, 46%) inset, 0 0 20px 2px #ff0000;
+    border: 3px solid #ff0000;
+  }
+  
+  .button-3{
+    margin-left: 50px;
+    margin-top: 450px;
+  }
+  
