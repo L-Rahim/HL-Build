@@ -5,9 +5,19 @@ console.log("main.js");
 const generateButton = document.querySelector(".generate-random-number");
 const randomNumberDiv = document.querySelector(".random-number");
 
-generateButton.addEventListener("click", () => {
-  // Genereer een willekeurig getal tussen 0 en 12
-  const randomNum = Math.floor(Math.random() * 13);
+console.log("generateButton is " + generateButton);
 
-  randomNumberDiv.textContent = `Uw getal = ${randomNum}` ;
-});
+generateButton.addEventListener("click", buttonClick)
+// Genereer een willekeurig getal tussen 0 en 12
+
+
+
+let randomNum;
+
+function buttonClick() {
+  randomNum = Math.floor(Math.random() * 13);
+  randomNumberDiv.textContent = `Uw getal = ` + randomNum;
+}
+
+
+

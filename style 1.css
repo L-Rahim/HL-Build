@@ -1,37 +1,25 @@
 * h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    -ms-grid-layer: unset;
+    text-shadow: 4px 2px 2px #1C6EA4;
+    margin-left: 30px;
+    margin-bottom: 50px;
 }
 
-h1 {
-    text-align: center;
-}
 
 button {
     margin-left: 905px;
+    font-size: xx-large;
 }
 
-button {
+.generate-random-number {
     margin-top: 400px;
 }
 
 div {
     text-align: center;
-}
-
-div {
     font-size: large;
-}
-
-button {
-    font-size: xx-large;
-}
-
-h1 {
-    -ms-grid-layer: unset;
-}
-
-h1 {
-    text-shadow: 4px 2px 2px #1C6EA4;
 }
 
 body {
@@ -40,15 +28,14 @@ body {
     background-color: black;
     color: #fff;
     text-transform: uppercase;
-  }
-  .container {
+
+}
+
+.container {
     text-align: center;
-  }
-  h1 {
-    margin-left: 30px;
-    margin-bottom: 50px;
-  }
-  .button {
+}
+
+.generate-random-number {
     width: 170px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -60,23 +47,24 @@ body {
     margin-bottom: 30px;
     cursor: pointer;
     display: inline-block;
-  }
-  
-  .button-1 {
+}
+
+.button-1 {
     background-color: transparent;
-    border: 3px solid #00d7c3;
+    border: 3px solid #7714d3;
     border-radius: 50px;
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
-    color: #00d7c3;
-  }
-  .button-1:hover {
-    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-    border: 3px solid #00d7c3;
-  }
-  
-  .button-1{
+    color: #7600d7;
     margin-left: 850px;
     margin-top: 450px;
-  }
-  
+}
+
+.button-1:hover {
+    box-shadow: 0 0 10px 0 #7600d78a inset, 0 0 20px 2px #7600d7;
+    border: 3px solid #7600d78a;
+}
+
+.random-number {
+    color: white;
+}
