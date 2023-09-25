@@ -2,7 +2,7 @@ console.log("main.js");
 
 
 //random number generator
-const generateButton = document.querySelector(".generate-random-number");
+const generateButton = document.querySelector(".button-64");
 const randomNumberDiv = document.querySelector(".random-number");
 
 console.log("generateButton is " + generateButton);

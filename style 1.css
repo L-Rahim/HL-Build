@@ -22,126 +22,53 @@ div {
     font-size: large;
 }
 
-body {
-    font-family: 'Roboto Condensed', sans-serif;
-    height: 100%;
-    background-color: black;
-    color: #fff;
-    text-transform: uppercase;
 
+/* CSS */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
 }
 
-.container {
-    text-align: center;
+.button-64:active,
+.button-64:hover {
+  outline: 0;
 }
 
-.generate-random-number {
-    width: 170px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-    color: #000;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    cursor: pointer;
-    display: inline-block;
+.button-64 span {
+  background-color: rgb(255, 255, 255);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
 }
 
-.button-1 {
-    background-color: transparent;
-    border: 3px solid #7714d3;
-    border-radius: 50px;
-    -webkit-transition: all .15s ease-in-out;
-    transition: all .15s ease-in-out;
-    color: #7600d7;
-    margin-left: 850px;
-    margin-top: 450px;
+.button-64:hover span {
+  background: none;
 }
 
-.button-1:hover {
-    box-shadow: 0 0 10px 0 #7600d78a inset, 0 0 20px 2px #7600d7;
-    border: 3px solid #7600d78a;
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
 }
-
-.random-number {
-    color: white;
-}
-  
-.button-2{
-    margin-left: 950px;
-    margin-top: 450px;
-  }
-
-
-  .button-2 {
-    width: 170px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-    color: #000;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    cursor: pointer;
-    display: inline-block;
-  }
-  
-  .button-2 {
-    background-color: transparent;
-    border: 3px solid hsl(197, 93%, 48%);
-    border-radius: 50px;
-    -webkit-transition: all .15s ease-in-out;
-    transition: all .15s ease-in-out;
-    color: #0684d8;
-  }
-  .button-2:hover {
-    box-shadow: 0 0 10px 0 hsl(199, 98%, 46%) inset, 0 0 20px 2px #0081d7;
-    border: 3px solid #0589e0;
-  }
-  
-  .button-2{
-    margin-left: 50px;
-    margin-top: 450px;
-  }
-  
-  .button-3{
-    margin-left: 950px;
-    margin-top: 450px;
-  }
-
-
-  .button-3 {
-    width: 170px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-    color: #000;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    cursor: pointer;
-    display: inline-block;
-  }
-  
-  .button-3 {
-    background-color: transparent;
-    border: 3px solid hsl(0, 100%, 50%);
-    border-radius: 50px;
-    -webkit-transition: all .15s ease-in-out;
-    transition: all .15s ease-in-out;
-    color: #ff0000;
-  }
-  .button-3:hover {
-    box-shadow: 0 0 10px 0 hsl(0, 98%, 46%) inset, 0 0 20px 2px #ff0000;
-    border: 3px solid #ff0000;
-  }
-  
-  .button-3{
-    margin-left: 50px;
-    margin-top: 300px;
-  }
-  
