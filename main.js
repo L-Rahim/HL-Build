@@ -13,7 +13,7 @@ generateButton.addEventListener("click", buttonClick)
 let randomNum;
 
 function buttonClick() {
-  randomNum = Math.floor(Math.random() * 13);
+  randomNum = Math.floor(Math.random() * 7);
   randomNumberDiv.textContent = `Uw getal = ` + randomNum;
 }
 
