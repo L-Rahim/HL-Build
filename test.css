@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    border: 10px solid black;
+    background-color: rgb(44, 99, 99);
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Item {
+    border: 15px solid rgb(10, 99, 233);
+    width: 250px;
+    height: 50px
+}
