@@ -24,5 +24,5 @@ const btn = document.querySelector(".text");
 btn.addEventListener("click" , function() {
   const imagenumber = randomNum(1, 6);
 
-  diceImg.src = "./images/dice-" + imagenumber + .png;
+  diceImg.src = "./images/dice-" + imagenumber + png;
  });
