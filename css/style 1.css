@@ -13,12 +13,6 @@
 .image{
   size: 30px;
 }
-.dice-container{
-  display: flex;
-  background-color: #AF40FF;
-  height: 100px;
-}
-
 
 .generate-random-number {
     margin-top: 400px;
